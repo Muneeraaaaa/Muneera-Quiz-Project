@@ -34,6 +34,7 @@ const Home = ({ name, setName, fetchQuestions }) => {
             label="Enter Your Name"
             variant="outlined"
             onChange={(e) => setName(e.target.value)}
+            value={name}
           />
           <TextField
             select
